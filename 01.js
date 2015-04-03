@@ -1,12 +1,13 @@
 function poi(){
 	$('div#ddd').html('');
+	var t=0;
 	//
 	var timedown_x = setInterval(function() {
 		if(t<3600){
 			$('div#ddd').html(t);
-			timedown_x;//Ä~Äò¶]°j°é
+			timedown_x;//ç¹¼çºŒè·‘è¿´åœˆ
 		}else{
-			clearInterval(timedown_x);//Ãö³¬°j°é
+			clearInterval(timedown_x);//é—œé–‰è¿´åœˆ
 		}
 	}, 1000);
 }
