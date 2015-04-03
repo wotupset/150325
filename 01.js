@@ -24,17 +24,17 @@ function test2(){
 	var tmp='';
 	$("#button00").click(function(){
 		//alert(tmp);//
-		tmp='';
+		tmp='<video controls autoplay loop width="320" height="240" id="bgvid"><source src="http://static.mengniang.org/common/2/29/KancollebgmA00.mp3" type="audio/mpeg"></video>';
 		$('div#ddd').html(tmp);
 	});
 	$("#button01").click(function(){
 		//alert(tmp);//
-		tmp='<video controls autoplay loop id="bgvid"><source src="http://static.mengniang.org/common/2/29/KancollebgmA01.mp3" type="audio/mpeg"></video>';
+		tmp='<video controls autoplay loop width="320" height="240" id="bgvid"><source src="http://static.mengniang.org/common/2/29/KancollebgmA01.mp3" type="audio/mpeg"></video>';
 		$('div#ddd').html(tmp);
 	});
 	$("#button02").click(function(){
 		//alert(tmp);//
-		tmp='<video controls autoplay loop id="bgvid"><source src="http://static.mengniang.org/common/b/b2/KancollebgmA02.mp3" type="audio/mpeg"></video>';
+		tmp='<video controls autoplay loop width="320" height="240" id="bgvid"><source src="http://static.mengniang.org/common/b/b2/KancollebgmA02.mp3" type="audio/mpeg"></video>';
 		$('div#ddd').html(tmp);
 	});
 }
