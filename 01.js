@@ -24,17 +24,30 @@ function test2(){
 	var tmp='';
 	$("#button00").click(function(){
 		//alert(tmp);//
-		tmp='<video controls autoplay loop width="320" height="240" id="bgvid"><source src="http://static.mengniang.org/common/2/29/KancollebgmA00.mp3" type="audio/mpeg"></video>';
-		$('div#ddd').html(tmp);
+		$('video#bgvid').attr('src','');//「空」
 	});
 	$("#button01").click(function(){
 		//alert(tmp);//
-		tmp='<video controls autoplay loop width="320" height="240" id="bgvid"><source src="http://static.mengniang.org/common/2/29/KancollebgmA01.mp3" type="audio/mpeg"></video>';
-		$('div#ddd').html(tmp);
+		$('video#bgvid').attr('src','http://static.mengniang.org/common/2/29/KancollebgmA01.mp3');//「母港」
 	});
 	$("#button02").click(function(){
-		//alert(tmp);//
-		tmp='<video controls autoplay loop width="320" height="240" id="bgvid"><source src="http://static.mengniang.org/common/b/b2/KancollebgmA02.mp3" type="audio/mpeg"></video>';
-		$('div#ddd').html(tmp);
+		$('video#bgvid').attr('src','http://static.mengniang.org/common/b/b2/KancollebgmA02.mp3');//「工廠」
+	});
+	$("#button03").click(function(){
+		$('video#bgvid').attr('src','http://static.mengniang.org/common/c/cb/KancollebgmA03.mp3');//「出擊」
+	});
+	$("#button04").click(function(){
+		$('video#bgvid').attr('src','http://static.mengniang.org/common/2/25/KancollebgmB01.mp3');//「晝戰」
+	});
+	$("#button05").click(function(){
+		$('video#bgvid').attr('src','http://static.mengniang.org/common/6/66/KancollebgmB03.mp3');//「夜戰」
+	});
+	$("#button06").click(function(){
+		$('video#bgvid').attr('src','http://static.mengniang.org/common/4/43/KancolleBgmMiiro.mp3');//「海色」
+	});
+	$("#button07").click(function(){
+		$('video#bgvid').attr('src','http://static.mengniang.org/common/b/bd/KancolleBgmFubuki.mp3');//「吹雪」
 	});
 }
+
+
